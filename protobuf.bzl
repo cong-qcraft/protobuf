@@ -369,7 +369,7 @@ def py_proto_library(
       plugin_language="grpc"
   )
 
-  py_libs2 = pylibs
+  py_libs2 = py_libs
   if default_runtime and not default_runtime in py_libs + deps:
     py_libs2 += [default_runtime]
 
